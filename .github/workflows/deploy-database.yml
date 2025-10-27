@@ -22,9 +22,9 @@ jobs:
           which migrate
 
       - name: Run migrations
-        run: migrate -database "${NEON_DB_URL}" -path ./migrations up
+        run: migrate -database "${PG_EKON}" -path ./migrations up
         env:
-          NEON_DB_URL: ${{ secrets.NEON_DB_URL }}
+          PG_EKON: ${{ secrets.PG_EKON }}
 
       # Continue with application deployment...
       - name: Deploy Application
