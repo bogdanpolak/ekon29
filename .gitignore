@@ -1,0 +1,9 @@
+# Demo folders to ignore
+/notes/
+
+# Mac OS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
