@@ -1,15 +1,5 @@
-# Ekon 29
+# Plan
 
-## Session
-
-From On-Prem to Cloud: Managing Database Migrations
-
-Monday, October 27 2025, 13:45 - 14:45
-Room: Goltstein
-
-## Plan
-
-- Why Cloud databases for Delphi developers?
 - Schema migrations as a separate maintenance process
    - Zero downtime migrations
 - **[Demo]** Serverless PostgreSQL Setup.
